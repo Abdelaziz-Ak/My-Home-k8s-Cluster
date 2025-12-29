@@ -1,0 +1,35 @@
+# Ansible
+*.retry
+.vault_pass
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Docker
+docker-compose.yml
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+*.tmp
+
+# Sensitive data
+secrets/
+*.key
+*.pem
+*.crt
